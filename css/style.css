@@ -601,11 +601,12 @@ h6,
 
 /*** Footer ***/
 .footer {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     color-mix(in srgb, var(--primary) 90%, black),
-    color-mix(in srgb, var(--primary) 40%, white)
-  );
+    color-mix(in srgb, var(--primary) 90%, black)
+  ); */
+  background: color-mix(in srgb, var(--primary) 50%, black);
 }
 
 .footer .btn.btn-link {
@@ -640,7 +641,7 @@ h6,
 
 .copyright {
   color: var(--light);
-  background: color-mix(in srgb, var(--primary) 50%, black);
+  background: color-mix(in srgb, var(--primary) 30%, black);
 }
 
 
